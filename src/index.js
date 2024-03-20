@@ -1,16 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import TodoList from "./components/todolist";
-import TodoForm from './components/todoform';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App"
 
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-    <div>
-        <div className="container">
-        
-            <TodoList />
-
-        </div>
-    </div>
-)
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<App/>);
